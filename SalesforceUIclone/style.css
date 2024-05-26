@@ -1,0 +1,240 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  height: 13%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+#logo {
+  height: 70%;
+}
+
+#logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.texts {
+  color: #003285;
+}
+
+.texts h2 {
+  font-size: large;
+}
+
+.texts:hover {
+  color: #4a79c4;
+}
+
+#contacts h2 {
+  font-weight: lighter;
+  font-size: large;
+  padding: 2px 4px;
+}
+
+.items {
+  color: #0c4093;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.items:hover {
+  background-color: #a2c3f8;
+}
+
+#login {
+  display: flex;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+#login:hover {
+  background-color: #a2c3f8;
+}
+
+#login i {
+  color: #2065d3;
+}
+
+#try {
+  padding: 15px 30px;
+  background-color: rgb(7, 128, 7);
+  border-radius: 5px;
+}
+
+#try:hover {
+  background-color: rgb(2, 43, 2);
+}
+
+#try h2 {
+  font-size: medium;
+  color: whitesmoke;
+}
+
+#fakeheader {
+  height: 13%;
+  width: 100%;
+}
+
+.page {
+  height: 95%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+#strip {
+  height: 8%;
+  width: 100%;
+  background-color: #062454;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#strip h2 {
+  font-size: large;
+  color: whitesmoke;
+}
+
+#strip u {
+  margin-left: 20px;
+  color: whitesmoke;
+  font-size: medium;
+}
+
+.content {
+  display: flex;
+  height: 78%;
+  width: 100%;
+}
+
+#box1 {
+  height: 68vh;
+  width: 55vw;
+  background-color: whitesmoke;
+}
+
+#trysalesforce {
+  margin: 70px;
+  margin-left: 100px;
+  margin-bottom: 35px;
+}
+
+#trysalesforce h1 {
+  color: #062454;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#salesforcemarketing {
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+#salesforcemarketing p {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.freetrial {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+#startfreetrial {
+  margin-left: 100px;
+  background-color: #2168dc;
+  padding: 17px 32px;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+
+#startfreetrial:hover {
+  background-color: #002155;
+}
+
+#startfreetrial p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#watchdemo {
+  margin-left: 20px;
+  border: 2px solid #2168dc;
+  color: #2065d3;
+  border-radius: 4px;
+  padding: 17px 32px;
+}
+
+#watchdemo:hover {
+  background-color: rgb(185, 207, 225);
+  color: #011e4b;
+  border-color: #011e4b;
+}
+
+#watchdemo p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#box2 {
+  height: 68vh;
+  width: 65vw;
+  background-color: whitesmoke;
+}
+
+#backgroundimage {
+  height: 100%;
+  width: 100%;
+}
+
+#backgroundimage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#tagline {
+  height: 13%;
+  width: 100%;
+  color: #062454;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#tagline h1 {
+  font-size: 40px;
+  font-weight: 550;
+}
+
+#tagline .centered {
+  text-align: center;
+}
+
+#page2 {
+  height: 87%;
+  width: 100%;
+  background-color: whitesmoke;
+}
